@@ -19,7 +19,7 @@
     "username": "boqfwiwn",
     "password": "hCNm65WRr6_wPqvQThIg3qlh2T5M5dzZ",
     "database": "boqfwiwn",
-    "host": "postgres://boqfwiwn:hCNm65WRr6_wPqvQThIg3qlh2T5M5dzZ@rajje.db.elephantsql.com",
+    "host": "rajje.db.elephantsql.com",
     "dialect": "postgres",
     "operatorsAliases": false
   }
