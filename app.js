@@ -23,10 +23,6 @@ app.get("/hello", (req,res)=>{
     res.send('Hello!')
 })
 
-app.get("/ian", (req, res) => {
-    models.CareProviders.findAll().then(providers => res.render("test", {providers: providers}))
-})
-
 app.listen(PORT, ()=>{
     console.log("Server is running...")
 })
