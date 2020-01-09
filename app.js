@@ -16,8 +16,10 @@ app.set('views',VIEWS_PATH)
 app.set('view engine', 'mustache')
 
 const careproviderRouter = require("./routes/careproviders")
+const familiesRouter = require('./routes/families')
 
 app.use("/careproviders", careproviderRouter)
+app.use('/families',familiesRouter)
 
 app.get("/hello", (req,res)=>{
     res.send('Hello!')
