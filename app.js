@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8080
 require('dotenv').config()
 const path = require('path')
 const VIEWS_PATH = path.join(__dirname,'/views')
-const models = require("./models")
+global.models = require("./models")
 
 
 app.use(bodyParser.urlencoded({extended: false}))
