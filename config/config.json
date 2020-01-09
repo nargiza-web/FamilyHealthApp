@@ -1,10 +1,10 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
+    "username": "boqfwiwn",
+    "password": "hCNm65WRr6_wPqvQThIg3qlh2T5M5dzZ",
+    "database": "boqfwiwn",
+    "host": "rajje.db.elephantsql.com",
+    "dialect": "postgres",
     "operatorsAliases": false
   },
   "test": {
@@ -16,11 +16,11 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
+    "username": "boqfwiwn",
+    "password": "hCNm65WRr6_wPqvQThIg3qlh2T5M5dzZ",
+    "database": "boqfwiwn",
+    "host": "postgres://boqfwiwn:hCNm65WRr6_wPqvQThIg3qlh2T5M5dzZ@rajje.db.elephantsql.com",
+    "dialect": "postgres",
     "operatorsAliases": false
   }
 }
