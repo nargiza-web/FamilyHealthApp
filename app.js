@@ -17,7 +17,7 @@ app.engine('mustache', mustacheExpress(VIEWS_PATH + './partials', '.mustache'))
 app.set('views',VIEWS_PATH)
 app.set('view engine', 'mustache')
 
-const indexRouter = require('./routes/index')
+//const indexRouter = require('./routes/index')
 const careprovidersRouter = require('./routes/careproviders')
 const familiesRouter = require('./routes/families')
 const membersRouter = require('./routes/members')
