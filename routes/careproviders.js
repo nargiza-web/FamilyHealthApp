@@ -1,7 +1,11 @@
 const express = require("express")
 const router = express.Router()
 
-app.get("/careproviders", (req, res) => {
+<<<<<<< Updated upstream
+router.get("/", (req, res) => {
+=======
+router.get("/careproviders", (req, res) => {
+>>>>>>> Stashed changes
     models.CareProviders.findAll().then(providers => res.render("test", {providers: providers}))
 })
 
