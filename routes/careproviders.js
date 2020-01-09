@@ -1,7 +1,7 @@
 const express = require("express")
 const router = express.Router()
 
-app.get("/careproviders", (req, res) => {
+router.get("/", (req, res) => {
     models.CareProviders.findAll().then(providers => res.render("test", {providers: providers}))
 })
 
