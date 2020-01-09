@@ -21,7 +21,7 @@ app.get("/hello", (req,res)=>{
 })
 
 app.get("/ian", (req, res) => {
-    models.CareProviders.findAll().then(providers => res.json(providers))
+    models.CareProviders.findAll().then(providers => res.render("test", {providers: providers}))
 })
 
 app.listen(PORT, ()=>{
