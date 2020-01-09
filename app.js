@@ -1,8 +1,10 @@
 const express = require('express')
 const app = express()
-const mustacheExpress = ('mustache-express')
+const mustacheExpress = require('mustache-express')
 const bodyParser = require('body-parser')
 const bcrypt = require('bcrypt')
+const path = require('path')
+const VIEWS_PATH = path.join(__dirname,'/views')
 const PORT = 3000
 
 app.use(bodyParser.urlencoded({extended: false}))
