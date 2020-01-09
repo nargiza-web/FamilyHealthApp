@@ -1,0 +1,28 @@
+{
+  "name": "familyhealthapp",
+  "version": "1.0.0",
+  "description": "Full Stack project for Digital Crafts created by Nargiza Ozek, Kety Cossey, Bailey Warrick, Ian Sear and Alejandra Guzman",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandraguzman/FamilyHealthApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandraguzman/FamilyHealthApp/issues"
+  },
+  "homepage": "https://github.com/alejandraguzman/FamilyHealthApp#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mustache-express": "^1.3.0",
+    "pg": "^7.17.0",
+    "sequelize": "^5.21.3"
+  }
+}
