@@ -3,7 +3,7 @@ const app = express()
 const mustacheExpress = ('mustache-express')
 const bodyParser = require('body-parser')
 const bcrypt = require('bcrypt')
-const PORT = 3000
+const PORT = process.env.PORT || 8080
 
 app.use(bodyParser.urlencoded({extended: false}))
 app.engine('mustache', mustacheExpress(VIEWS_PATH + '/partials', '.mustache'))
