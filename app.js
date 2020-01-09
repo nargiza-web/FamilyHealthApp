@@ -16,6 +16,10 @@ app.engine('mustache', mustacheExpress(VIEWS_PATH + './partials', '.mustache'))
 app.set('views',VIEWS_PATH)
 app.set('view engine', 'mustache')
 
+const careproviderRouter = require("./routes/careproviders")
+
+app.use("/careproviders", careproviderRouter)
+
 app.get("/hello", (req,res)=>{
     res.send('Hello!')
 })
