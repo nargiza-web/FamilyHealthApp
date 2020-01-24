@@ -1,7 +1,5 @@
 
 # FamilyHealthApp
-Full Stack project for Digital Crafts created by Nargiza Ozek, Kety Cossey, Bailey Warrick, Ian Sear and Alejandra Guzman
-#### real project for a non-profit organization build by us, click www.nabifreedom.org
 ---
 ___
 
@@ -19,10 +17,11 @@ ___
 [Family Health App](https://frozen-earth-46265.herokuapp.com/login)
 deployed on Heroku
 
+Table: guest login
 | username  | password |
 |-----------|----------|
 | guest     | test1234 |
-Table: guest login
+
 
 ## This site was built by:
 * [Nargiza Ozek](https://naku.dev)
